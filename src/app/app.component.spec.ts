@@ -1,3 +1,13 @@
+ /*
+* File: app.component.spec.ts
+* Author: Kovács Dorina
+* Copyright: 2022, Kovács Dorina
+* Group: Szoft II N
+* Date: 2022-12-25
+* Github: https://github.com/Kdorina
+* Licenc: GNU GPL
+*/
+
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
