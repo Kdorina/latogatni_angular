@@ -8,4 +8,25 @@
 * Licenc: GNU GPL
 */ -->
 
-<p>places works!</p>
+<h2>Települések</h2>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Település név</th>
+                <th>Megye</th>
+                <th>Terület (km^2)</th>
+                <th>Népesség (fő)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let place of places">
+                <td>{{place.name}}</td>
+                <td>{{place.county}}</td>
+                <td>{{place.area}}</td>
+                <td>{{place.population}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
